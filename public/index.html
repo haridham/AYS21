@@ -121,16 +121,28 @@
             aspY = 410;
     </script>
     <script src="js/main.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161453786-1"></script>
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-analytics.js"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-161453786-1');
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyAbAutOCeicBQXBjQGp-p0quoBf7C6G9hQ",
+        authDomain: "badges-yds-org.firebaseapp.com",
+        projectId: "badges-yds-org",
+        storageBucket: "badges-yds-org.appspot.com",
+        messagingSenderId: "148260182340",
+        appId: "1:148260182340:web:832a4354445d4b842f9f11",
+        measurementId: "G-2JY5DPEF5N"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
     </script>
-
 </body>
 
 </html>
