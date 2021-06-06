@@ -496,7 +496,7 @@ header.fixHeader .header {
 .abs-div1 {
     left: 0%;
     top: 3%;
-    width: 82%;
+    width: 99%;
     height: 46%;
 }
 
@@ -531,7 +531,7 @@ header.fixHeader .header {
 }
 
 #capture {
-    max-width: 500px;
+    max-width: 419px;
 }
 
 .layout-box {
