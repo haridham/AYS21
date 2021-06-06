@@ -517,7 +517,6 @@ header.fixHeader .header {
 .mainFrame {
     z-index: 2;
     position: relative;
-    height: 982px;
 }
 
 .cropped {
