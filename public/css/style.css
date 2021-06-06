@@ -517,6 +517,7 @@ header.fixHeader .header {
 .mainFrame {
     z-index: 2;
     position: relative;
+    height: 982px;
 }
 
 .cropped {
@@ -531,7 +532,7 @@ header.fixHeader .header {
 }
 
 #capture {
-    max-width: 419px;
+    max-width: 418px;
 }
 
 .layout-box {
